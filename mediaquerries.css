@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+    }
+    
+    .class {
+      font-size: large;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .container {
+      width: 80%;
+    }
+    
+    .class {
+      font-size: x-large;
+    }
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    .container {
+      width: 70%;
+    }
+    
+    .class {
+      font-size: xx-large;
+    }
+  }
